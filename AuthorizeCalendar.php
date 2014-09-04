@@ -25,7 +25,7 @@ $client->setRedirectUri($LocalURL);
 //## Other APIs -- the scope (permissions) change for other APIs
 $client->addScope("https://www.googleapis.com/auth/calendar");
 //## Other APIs -- primary object for service change for other APIs
-$Calendar = new Google_Service_Calendar($client);
+$CalendarService = new Google_Service_Calendar($client);
 
 if (isset($_GET['logout'])){
     unset($_SESSION['token']);
