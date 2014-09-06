@@ -4,8 +4,8 @@
 //   be changed for other api with //### Other APIs 
 
 // keys to access calendars from google api console credentials
-$CLIENTID = "29133717269-drb1n19t61d5pjfmc9asgf765ioq66oi.apps.googleusercontent.com";
-$CLIENTSECRET = "1BsUTaBX2jC7dvYQiAMZG7_-";
+$CLIENTID = "991229083141-qqjvobfsatfupvj3p78gi2mmdi1db6a5.apps.googleusercontent.com";
+$CLIENTSECRET = "vGp2UT_M1mQO4T-hxhjY2xD3";
 
 // URL to come back to
 $LocalURL = "http://". $_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
