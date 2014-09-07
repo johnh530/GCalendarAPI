@@ -30,7 +30,7 @@ while(true) {
     echo $event['start']['date'] . " - " . $event['summary'] . "<br>";;
     $CalendarService->events->insert($ToCalendarId, $event);
   }
-  $pageToken = $Events->getNextPageToken();
+  $pageToken = $events->getNextPageToken();
   if ($pageToken) {
     $optParams = array(
       'pageToken' => $pageToken,
