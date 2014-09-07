@@ -49,8 +49,8 @@ while (true){
 } 
 ?>
       </SELECT></TD></TR>
-    <TR><TD>Start Date</TD><TD><input type="text" id="fromdatepicker"></TD></TR>
-    <TR><TD>Stop Date</TD><TD><input type="text" id="todatepicker"></TD></TR>
+    <TR><TD>Start Date</TD><TD><input type="text" name="FromDate" id="fromdatepicker"></TD></TR>
+    <TR><TD>Stop Date</TD><TD><input type="text" name="ToDate" id="todatepicker"></TD></TR>
     <TR><TD>To Calendar</TD>
       <TD><SELECT name="ToCalendarId">
 <?php // iterate over calendars - using the summary and id
@@ -69,6 +69,6 @@ while (true){
 } 
 ?>
       </SELECT></TD></TR>
-      <TR><TD colspan=2 align=center><INPUT type=SUBMIT value="Copy Calendar"></TD></TR>
+      <TR><TD colspan=2 align=center><INPUT type=SUBMIT value="Copy Calendar - (May take a while)"></TD></TR>
   </TABLE>
 </FORM>
