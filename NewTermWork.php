@@ -6,7 +6,7 @@ require_once("AuthorizeCalendar.php");
 ?>
 <body>
 New Term Calendar:
-<FORM action="CopyActWork.php" method = "POST">
+<FORM action="NewTermWorkAct.php" method = "POST">
   <TABLE>
     <TR><TD>Calendar</TD>
       <TD><SELECT name="CalendarId">
