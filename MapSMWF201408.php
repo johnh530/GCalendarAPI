@@ -1,6 +1,6 @@
 <?php
 $Map = array(
-  'start' => "9/27/2014",
+  'start' => "8/27/2014",
   'stop' => "12/12/2014",
   'holiday' => array(
     'Labor Day' => "9/1/2014",
