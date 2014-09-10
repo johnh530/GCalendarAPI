@@ -74,7 +74,7 @@ while(true) {
       'pageToken' => $pageToken,
       'timeMin' => $FromDateTime,
       'timeMax' => $ToDateTime);
-    $events = $service->events->listEvents('primary', $optParams);
+    $events = $service->events->listEvents($CalendarId, $optParams);
   } else {
     break;
   }
