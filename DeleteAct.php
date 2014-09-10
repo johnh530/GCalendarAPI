@@ -29,7 +29,6 @@ while(true) {
     if (isset($event['start']['date'])){
       echo $event['start']['date'] . " - " . $event['summary'] . "<br>";;
       $CalendarService->events->delete($CalendarId, $event['id']);
-      exit;
     }
   }
   $pageToken = $events->getNextPageToken();
