@@ -27,7 +27,7 @@ $events = $CalendarService->events->ListEvents($FromCalendarId, array(
     'timeMax' => $ToDateTime));
 while(true) {
   foreach ($events->getItems() as $event) {
-    if (isset($event['start']['date')){
+    if (isset($event['start']['date'])){
       echo $event['start']['date'] . " - " . $event['summary'] . "<br>";;
       $CalendarService->events->insert($ToCalendarId, $event);
     }
